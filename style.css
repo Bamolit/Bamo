@@ -6,6 +6,13 @@
   justify-content: column;
   background-color: #f5f5f7cc;
   justify-content: center;
+  position: fixed;
+  z-index: 1;
+}
+.Zai {
+  width: 1920px;
+  height: 44px;
+  background-color: #f5f5f7cc;
 }
 * {
   padding: 0;
@@ -14,15 +21,20 @@
 }
 .Text {
   display: flex;
-  padding: 20px 529px;
   align-items: center;
   justify-content: center;
   gap: 24px;
 }
+.Text1 {
+  display: flex;
+}
+.lucide-handbag {
+  margin-right: 24px;
+  margin-left: 24px;
+}
 body {
   margin: auto;
   width: 1920px;
-  height: 4274px;
 }
 .Texts {
   font-size: 12px;
@@ -313,4 +325,412 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.Fifth1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Fifth1-1 {
+  margin-top: 58px;
+  font-size: 32px;
+  color: #000000;
+  display: flex;
+  gap: 7px;
+}
+.Fifth1-2 {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #000000;
+}
+.Fifth1-3 {
+  font-size: 18px;
+  margin-top: 4px;
+  color: #1d1d1f;
+}
+.Fifth1-4 {
+  margin-top: 20px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Fifth1-4-1 {
+  border-radius: 999px;
+  width: 123px;
+  height: 44px;
+  color: white;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.Fifth1-4-2 {
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  font-size: 16px;
+  height: 44px;
+  color: #2997ff;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Fifth2-1 {
+  margin-top: 58px;
+  font-size: 32px;
+  color: #000000;
+}
+.Fifth2-2 {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.Fifth2-3 {
+  margin-top: 20px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Fifth2-3-2 {
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  font-size: 16px;
+  height: 44px;
+  color: #2997ff;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Fifth2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Sixth1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Sixth2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Sixth1-1 {
+  display: flex;
+  gap: 7px;
+  margin-top: 58px;
+  font-size: 32px;
+  color: #000000;
+}
+.Sixth1-2 {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #000000;
+  width: 322px;
+  height: 50px;
+  text-align: center;
+}
+.Sixth1-3 {
+  border-radius: 999px;
+  width: 167px;
+  height: 40px;
+  color: white;
+  background-color: #0071e3;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.Sixth2-1 {
+  display: flex;
+  gap: 7px;
+  margin-top: 58px;
+  font-size: 32px;
+  color: #000000;
+}
+.Sixth2-2 {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #000000;
+  width: 200px;
+  height: 50px;
+
+  text-align: center;
+}
+.Sixth2-3 {
+  margin-top: 16px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Sixth2-3-1 {
+  border-radius: 999px;
+  width: 123px;
+  height: 44px;
+  color: white;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.Sixth2-3-2 {
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  font-size: 16px;
+  height: 44px;
+  color: #2997ff;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Seven {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: 1920px;
+  margin-top: 12px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.Seven1 {
+  width: 1250px;
+  height: 668px;
+  background: url(./napoleon.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven2 {
+  width: 1250px;
+  height: 668px;
+  background: url(./bad-monkey.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven3 {
+  width: 1250px;
+  height: 668px;
+  background: url(./instigators.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven4 {
+  width: 1250px;
+  height: 668px;
+  background: url(./k-pop-idols.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven5 {
+  width: 1250px;
+  height: 668px;
+  background: url(./season-pass.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven6 {
+  width: 1250px;
+  height: 668px;
+  background: url(./pressumed-innocent.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven7 {
+  width: 1250px;
+  height: 668px;
+  background: url(./pachinko.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven8 {
+  width: 1250px;
+  height: 668px;
+  background: url(./baseball.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven9 {
+  width: 1250px;
+  height: 668px;
+  background: url(./lady-in-the-lake.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Seven10 {
+  width: 1250px;
+  height: 668px;
+  background: url(./morning-show.jpg) center/cover no-repeat;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+.Eight {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: 12px;
+  justify-content: center;
+}
+.Eight1 {
+  border: 1px solid black;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.lucide-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .lucide-menu {
+    display: inline;
+  }
+  .Texts {
+    display: none;
+  }
+  .One1 {
+    display: flex;
+    width: 768px;
+    height: 44px;
+    align-items: center;
+    background-color: #f5f5f7cc;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  .Texts3 {
+    display: flex;
+    position: relative;
+    right: 600px;
+  }
+  .Text {
+    display: flex;
+  }
+  .body {
+    margin: auto;
+    width: 768px;
+  }
+
+  .Two {
+    width: 768px;
+
+    height: 650px;
+  }
+  .Third {
+    width: 768px;
+    height: 650px;
+  }
+  .Four {
+    padding: 12px;
+    display: flex;
+    width: 768px;
+    gap: 12px;
+  }
+  .Fifth {
+    padding: 12px;
+    display: flex;
+    width: 768px;
+    gap: 12px;
+  }
+  .Sixth {
+    padding: 12px;
+    display: flex;
+    width: 768px;
+    gap: 12px;
+  }
+  .Seven {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 768px;
+    margin-top: 12px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .Seven1 {
+    width: 689px;
+    height: 368px;
+    background: url(./morning-show.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven2 {
+    width: 689px;
+    height: 368px;
+    background: url(./bad-monkey.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven3 {
+    width: 689px;
+    height: 368px;
+    background: url(./instigators.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven4 {
+    width: 689px;
+    height: 368px;
+    background: url(./k-pop-idols.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven5 {
+    width: 689px;
+    height: 368px;
+    background: url(./season-pass.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven6 {
+    width: 689px;
+    height: 368px;
+    background: url(./pressumed-innocent.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven7 {
+    width: 689px;
+    height: 368px;
+    background: url(./pachinko.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven8 {
+    width: 689px;
+    height: 368px;
+    background: url(./baseball.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven9 {
+    width: 689px;
+    height: 368px;
+    background: url(./lady-in-the-lake.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Seven10 {
+    width: 689px;
+    height: 368px;
+    background: url(./morning-show.jpg) center/cover no-repeat;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  .Eight {
+    width: 768px;
+  }
 }
