@@ -65,6 +65,9 @@ body {
   justify-content: center;
   color: white;
 }
+.OFour1 {
+  display: none;
+}
 .Two2 {
   width: 405px;
   height: 32px;
